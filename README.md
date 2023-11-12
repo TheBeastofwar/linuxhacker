@@ -23,7 +23,7 @@ Options:
 - ssh_stealth_login/ssh4 ssh隐身登录,w,last等命令查找不到
 - cron 计划任务提权
 - file 更改文件的atime,mtiem,实现webshell和一些恶意代码的权限维持
-![image](https://github.com/TheBeastofwar/linuxhacker/assets/117450378/4c9eae4d-3942-4d77-9a4a-e0c56d62e9d9)
+![U~NJTH%OHJ5K IXLHKK9G6](https://github.com/TheBeastofwar/linuxhacker/assets/117450378/a43b5abe-5016-4b70-87fc-3f8358875fa9)
 ## 开发日志
 ### 2023 11.12 v1.0.0
 - 可探测当前linux系统所处环境(是否是docker,vm等)
