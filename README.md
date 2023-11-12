@@ -18,7 +18,7 @@ Options:
 - privilege_check 选项: suid,sudo,cap,kernel
 - maintance 选项: ssh_soft_link/ssh1,ssh_public_key/ssh2,ssh_key_logger/ssh3,ssh_stealth_login/ssh4,cron,file
 - ssh_soft_link/ssh1 ssh软链接权限维持
-- ssh_public_key/ssh2 ssh写公钥提权
+- ssh_public_key/ssh2 ssh写公钥权限维持
 - ssh_key_logger/ssh3 ssh key logger可以记录下别人ssh登录的密码
 - ssh_stealth_login/ssh4 ssh隐身登录,w,last等命令查找不到
 - cron 计划任务提权
