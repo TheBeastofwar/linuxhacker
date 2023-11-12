@@ -8,7 +8,7 @@
  |_|_|_| |_|\__,_/_/\_\_| |_|\__,_|\___|_|\_\___|_|
     				version: 1.0.0
 
-Usage: golang -p [plugin] -c [choice]
+Usage: linuxhacker -p [plugin] -c [choice]
 Options:
 -p	choose the plugin
 -c	choose the choice for the corresponding plugin
