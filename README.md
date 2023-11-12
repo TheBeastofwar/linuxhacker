@@ -14,9 +14,9 @@ Options:
 -c	choose the choice for the corresponding plugin
 ```
 插件:
-- env_check  选项: docker(检查是否处于docker环境),vm(检查是否处于虚拟机中)
-- privilege_check 选项: suid,sudo,cap,kernel
-- maintance 选项: ssh_soft_link/ssh1,ssh_public_key/ssh2,ssh_key_logger/ssh3,ssh_stealth_login/ssh4,cron,file
+- env_check/1  选项: docker(检查是否处于docker环境),vm(检查是否处于虚拟机中)
+- privilege_check/2 选项: suid,sudo,cap,kernel
+- maintance/3 选项: ssh_soft_link/ssh1,ssh_public_key/ssh2,ssh_key_logger/ssh3,ssh_stealth_login/ssh4,cron,file
 - ssh_soft_link/ssh1 ssh软链接权限维持
 - ssh_public_key/ssh2 ssh写公钥权限维持
 - ssh_key_logger/ssh3 ssh key logger可以记录下别人ssh登录的密码
