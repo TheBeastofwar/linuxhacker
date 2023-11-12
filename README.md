@@ -23,6 +23,7 @@ Options:
 - ssh_stealth_login/ssh4 ssh隐身登录,w,last等命令查找不到
 - cron 计划任务提权
 - file 更改文件的atime,mtiem,实现webshell和一些恶意代码的权限维持
+![XF8~C6G2(KEBC8(`~K)E7MG](https://github.com/TheBeastofwar/linuxhacker/assets/117450378/7e2f3549-90d3-410e-a4c6-d8e3a74d5c68)
 ![U~NJTH%OHJ5K IXLHKK9G6](https://github.com/TheBeastofwar/linuxhacker/assets/117450378/a43b5abe-5016-4b70-87fc-3f8358875fa9)
 ## 开发日志
 ### 2023 11.12 v1.0.0
