@@ -8,6 +8,9 @@ import (
 
 func Capabilities_Check(dir string) {
 	fmt.Println("Capabilities privilege checking...")
+	if dir == "" {
+		dir = "/usr/bin"
+	}
 	cmd := exec.Command("getcap", "-r", fmt.Sprintf(dir))
 	result, err := cmd.CombinedOutput()
 	if err != nil {

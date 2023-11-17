@@ -9,6 +9,9 @@ import (
 // check /usr/bin /usr/sbin
 func SUID_Check(dir string) {
 	fmt.Println("SUID privilege checking...")
+	if dir == "" {
+		dir = "/usr/bin"
+	}
 	cmd := exec.Command("find", fmt.Sprintf(dir), "-user", "root", "-perm", "-4000", "-print")
 	result, err := cmd.CombinedOutput()
 	if err != nil {

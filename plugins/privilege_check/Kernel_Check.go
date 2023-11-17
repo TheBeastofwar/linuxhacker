@@ -7,7 +7,8 @@ import (
 
 func Kernel_Check() {
 	fmt.Println("kernel vulnerability checking...")
-	cmd := exec.Command("perl", "./plugins/poc/os_poc/linux-exploit-suggester-2.pl")
+	//"uname","-r","|cut -d'-' -f1"
+	cmd := exec.Command("uname -r |cut -d'-' -f1")
 	result, err := cmd.CombinedOutput()
 	if err != nil {
 		return
